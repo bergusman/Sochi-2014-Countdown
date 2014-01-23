@@ -19,6 +19,8 @@
 		ADA0BA2A1891D7A400F13199 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA0BA0C1891D7A400F13199 /* UIKit.framework */; };
 		ADA0BA321891D7A400F13199 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA301891D7A400F13199 /* InfoPlist.strings */; };
 		ADA0BA341891D7A400F13199 /* Sochi_2014_CountdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA0BA331891D7A400F13199 /* Sochi_2014_CountdownTests.m */; };
+		ADA0BA441891DC4300F13199 /* VBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA0BA421891DC4300F13199 /* VBMainViewController.m */; };
+		ADA0BA451891DC4300F13199 /* VBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA431891DC4300F13199 /* VBMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ADA0BA051891D7A400F13199 /* Sochi 2014 Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sochi 2014 Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA0BA051891D7A400F13199 /* Sochi 2014 Countdown Dark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sochi 2014 Countdown Dark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA0BA081891D7A400F13199 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ADA0BA0A1891D7A400F13199 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		ADA0BA0C1891D7A400F13199 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		ADA0BA101891D7A400F13199 /* Sochi 2014 Countdown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sochi 2014 Countdown-Info.plist"; sourceTree = "<group>"; };
+		ADA0BA101891D7A400F13199 /* DarkInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DarkInfo.plist; sourceTree = "<group>"; };
 		ADA0BA121891D7A400F13199 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADA0BA141891D7A400F13199 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ADA0BA161891D7A400F13199 /* Sochi 2014 Countdown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sochi 2014 Countdown-Prefix.pch"; sourceTree = "<group>"; };
+		ADA0BA161891D7A400F13199 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		ADA0BA171891D7A400F13199 /* VBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBAppDelegate.h; sourceTree = "<group>"; };
 		ADA0BA181891D7A400F13199 /* VBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAppDelegate.m; sourceTree = "<group>"; };
 		ADA0BA201891D7A400F13199 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -48,6 +50,9 @@
 		ADA0BA2F1891D7A400F13199 /* Sochi 2014 CountdownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sochi 2014 CountdownTests-Info.plist"; sourceTree = "<group>"; };
 		ADA0BA311891D7A400F13199 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADA0BA331891D7A400F13199 /* Sochi_2014_CountdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sochi_2014_CountdownTests.m; sourceTree = "<group>"; };
+		ADA0BA411891DC4300F13199 /* VBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBMainViewController.h; sourceTree = "<group>"; };
+		ADA0BA421891DC4300F13199 /* VBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBMainViewController.m; sourceTree = "<group>"; };
+		ADA0BA431891DC4300F13199 /* VBMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VBMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +92,7 @@
 		ADA0BA061891D7A400F13199 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADA0BA051891D7A400F13199 /* Sochi 2014 Countdown.app */,
+				ADA0BA051891D7A400F13199 /* Sochi 2014 Countdown Dark.app */,
 				ADA0BA261891D7A400F13199 /* Sochi 2014 CountdownTests.xctest */,
 			);
 			name = Products;
@@ -107,8 +112,7 @@
 		ADA0BA0E1891D7A400F13199 /* Sochi 2014 Countdown */ = {
 			isa = PBXGroup;
 			children = (
-				ADA0BA171891D7A400F13199 /* VBAppDelegate.h */,
-				ADA0BA181891D7A400F13199 /* VBAppDelegate.m */,
+				ADA0BA3D1891DA1C00F13199 /* Sources */,
 				ADA0BA201891D7A400F13199 /* Images.xcassets */,
 				ADA0BA0F1891D7A400F13199 /* Supporting Files */,
 			);
@@ -118,10 +122,10 @@
 		ADA0BA0F1891D7A400F13199 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ADA0BA101891D7A400F13199 /* Sochi 2014 Countdown-Info.plist */,
+				ADA0BA101891D7A400F13199 /* DarkInfo.plist */,
 				ADA0BA111891D7A400F13199 /* InfoPlist.strings */,
 				ADA0BA141891D7A400F13199 /* main.m */,
-				ADA0BA161891D7A400F13199 /* Sochi 2014 Countdown-Prefix.pch */,
+				ADA0BA161891D7A400F13199 /* Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -144,6 +148,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ADA0BA3D1891DA1C00F13199 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ADA0BA3E1891DA3100F13199 /* Models */,
+				ADA0BA401891DA3D00F13199 /* Views */,
+				ADA0BA3F1891DA3700F13199 /* Controllers */,
+				ADA0BA171891D7A400F13199 /* VBAppDelegate.h */,
+				ADA0BA181891D7A400F13199 /* VBAppDelegate.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		ADA0BA3E1891DA3100F13199 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		ADA0BA3F1891DA3700F13199 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADA0BA411891DC4300F13199 /* VBMainViewController.h */,
+				ADA0BA421891DC4300F13199 /* VBMainViewController.m */,
+				ADA0BA431891DC4300F13199 /* VBMainViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		ADA0BA401891DA3D00F13199 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,7 +201,7 @@
 			);
 			name = "Sochi 2014 Countdown Dark";
 			productName = "Sochi 2014 Countdown";
-			productReference = ADA0BA051891D7A400F13199 /* Sochi 2014 Countdown.app */;
+			productReference = ADA0BA051891D7A400F13199 /* Sochi 2014 Countdown Dark.app */;
 			productType = "com.apple.product-type.application";
 		};
 		ADA0BA251891D7A400F13199 /* Sochi 2014 CountdownTests */ = {
@@ -192,6 +232,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Vitaly Berg";
 				TargetAttributes = {
+					ADA0BA041891D7A400F13199 = {
+						DevelopmentTeam = 5G5YZAQBSX;
+					};
 					ADA0BA251891D7A400F13199 = {
 						TestTargetID = ADA0BA041891D7A400F13199;
 					};
@@ -222,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA0BA211891D7A400F13199 /* Images.xcassets in Resources */,
+				ADA0BA451891DC4300F13199 /* VBMainViewController.xib in Resources */,
 				ADA0BA131891D7A400F13199 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA0BA441891DC4300F13199 /* VBMainViewController.m in Sources */,
 				ADA0BA191891D7A400F13199 /* VBAppDelegate.m in Sources */,
 				ADA0BA151891D7A400F13199 /* main.m in Sources */,
 			);
@@ -361,9 +406,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Sochi 2014 Countdown-Prefix.pch";
-				INFOPLIST_FILE = "Sochi 2014 Countdown/Sochi 2014 Countdown-Info.plist";
+				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Prefix.pch";
+				INFOPLIST_FILE = "Sochi 2014 Countdown/DarkInfo.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,9 +420,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Sochi 2014 Countdown-Prefix.pch";
-				INFOPLIST_FILE = "Sochi 2014 Countdown/Sochi 2014 Countdown-Info.plist";
+				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Prefix.pch";
+				INFOPLIST_FILE = "Sochi 2014 Countdown/DarkInfo.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,6 +490,7 @@
 				ADA0BA391891D7A500F13199 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADA0BA3A1891D7A500F13199 /* Build configuration list for PBXNativeTarget "Sochi 2014 CountdownTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +499,7 @@
 				ADA0BA3C1891D7A500F13199 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

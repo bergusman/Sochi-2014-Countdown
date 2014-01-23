@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ADA0BA041891D7A400F13199"
-               BuildableName = "Sochi 2014 Countdown.app"
-               BlueprintName = "Sochi 2014 Countdown"
+               BuildableName = "Sochi 2014 Countdown Dark.app"
+               BlueprintName = "Sochi 2014 Countdown Dark"
                ReferencedContainer = "container:Sochi 2014 Countdown.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ADA0BA041891D7A400F13199"
-            BuildableName = "Sochi 2014 Countdown.app"
-            BlueprintName = "Sochi 2014 Countdown"
+            BuildableName = "Sochi 2014 Countdown Dark.app"
+            BlueprintName = "Sochi 2014 Countdown Dark"
             ReferencedContainer = "container:Sochi 2014 Countdown.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ADA0BA041891D7A400F13199"
-            BuildableName = "Sochi 2014 Countdown.app"
-            BlueprintName = "Sochi 2014 Countdown"
+            BuildableName = "Sochi 2014 Countdown Dark.app"
+            BlueprintName = "Sochi 2014 Countdown Dark"
             ReferencedContainer = "container:Sochi 2014 Countdown.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ADA0BA041891D7A400F13199"
-            BuildableName = "Sochi 2014 Countdown.app"
-            BlueprintName = "Sochi 2014 Countdown"
+            BuildableName = "Sochi 2014 Countdown Dark.app"
+            BlueprintName = "Sochi 2014 Countdown Dark"
             ReferencedContainer = "container:Sochi 2014 Countdown.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
