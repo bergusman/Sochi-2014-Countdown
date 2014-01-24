@@ -10,6 +10,8 @@
 
 #import "VBMainViewController.h"
 
+#import <Flurry.h>
+
 @implementation VBAppDelegate
 
 #pragma mark - Setups
@@ -19,7 +21,17 @@
 }
 
 - (void)setupFlurry {
-    
+    [Flurry startSession:@""];
+}
+
+- (void)setupWindow {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+}
+
+- (void)setupMainVC {
+    VBMainViewController *mainVC = [[VBMainViewController alloc] init];
+    self.window.rootViewController = mainVC;
 }
 
 #pragma mark - UIApplicationDelegate
@@ -27,13 +39,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self setupCrashlytics];
     [self setupFlurry];
-    
-    VBMainViewController *mainVC = [[VBMainViewController alloc] init];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = mainVC;
-    [self.window makeKeyAndVisible];
-    
+    [self setupWindow];
+    [self setupMainVC];
     return YES;
 }
 

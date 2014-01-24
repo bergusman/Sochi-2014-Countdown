@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Sochi 2014 Countdown
+
+  Created by Vitaly Berg on 24/01/14.
+  Copyright (c) 2014 Vitaly Berg. All rights reserved.
+*/
+
+"days" = "Дней";
+"hours" = "Часов";
+"minutes" = "Минут";
+"seconds" = "Секунд";
+
+"title" = "До XXII Олимпийских зимних\nИгр осталось:";
