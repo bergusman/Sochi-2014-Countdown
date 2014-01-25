@@ -10,14 +10,15 @@
 
 #import "VBMainViewController.h"
 
-#import <Flurry.h>
+#import <Crashlytics/Crashlytics.h>
+#import <FlurrySDK/Flurry.h>
 
 @implementation VBAppDelegate
 
 #pragma mark - Setups
 
 - (void)setupCrashlytics {
-    
+    [Crashlytics startWithAPIKey:@"43bdaee89a9a66824f56a6da19395009058a1b34"];
 }
 
 - (void)setupFlurry {

@@ -14,7 +14,7 @@
 		ADA0BA131891D7A400F13199 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA111891D7A400F13199 /* InfoPlist.strings */; };
 		ADA0BA151891D7A400F13199 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA0BA141891D7A400F13199 /* main.m */; };
 		ADA0BA191891D7A400F13199 /* VBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA0BA181891D7A400F13199 /* VBAppDelegate.m */; };
-		ADA0BA211891D7A400F13199 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA201891D7A400F13199 /* Images.xcassets */; };
+		ADA0BA211891D7A400F13199 /* DarkImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA201891D7A400F13199 /* DarkImages.xcassets */; };
 		ADA0BA281891D7A400F13199 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA0BA271891D7A400F13199 /* XCTest.framework */; };
 		ADA0BA291891D7A400F13199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA0BA081891D7A400F13199 /* Foundation.framework */; };
 		ADA0BA2A1891D7A400F13199 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA0BA0C1891D7A400F13199 /* UIKit.framework */; };
@@ -27,6 +27,7 @@
 		ADFB90931891E45300AA6C82 /* Sochi2014 Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB90901891E45300AA6C82 /* Sochi2014 Regular.ttf */; };
 		ADFB90981891E75700AA6C82 /* VBSochiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFB90971891E75700AA6C82 /* VBSochiLabel.m */; };
 		ADFB909B1891E81400AA6C82 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADFB909D1891E81400AA6C82 /* Localizable.strings */; };
+		ADFB90A21892F53D00AA6C82 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFB90A11892F53D00AA6C82 /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,7 @@
 		ADA0BA161891D7A400F13199 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		ADA0BA171891D7A400F13199 /* VBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBAppDelegate.h; sourceTree = "<group>"; };
 		ADA0BA181891D7A400F13199 /* VBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAppDelegate.m; sourceTree = "<group>"; };
-		ADA0BA201891D7A400F13199 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADA0BA201891D7A400F13199 /* DarkImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DarkImages.xcassets; sourceTree = "<group>"; };
 		ADA0BA261891D7A400F13199 /* Sochi 2014 CountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sochi 2014 CountdownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA0BA271891D7A400F13199 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		ADA0BA2F1891D7A400F13199 /* Sochi 2014 CountdownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sochi 2014 CountdownTests-Info.plist"; sourceTree = "<group>"; };
@@ -68,8 +69,9 @@
 		ADFB90951891E46F00AA6C82 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADFB90961891E75700AA6C82 /* VBSochiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBSochiLabel.h; sourceTree = "<group>"; };
 		ADFB90971891E75700AA6C82 /* VBSochiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBSochiLabel.m; sourceTree = "<group>"; };
-		ADFB909C1891E81400AA6C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		ADFB909E1891E81500AA6C82 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADFB909C1891E81400AA6C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADFB909E1891E81500AA6C82 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADFB90A11892F53D00AA6C82 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA0BA0B1891D7A400F13199 /* CoreGraphics.framework in Frameworks */,
+				ADFB90A21892F53D00AA6C82 /* Crashlytics.framework in Frameworks */,
 				ADA0BA0D1891D7A400F13199 /* UIKit.framework in Frameworks */,
 				ADA0BA091891D7A400F13199 /* Foundation.framework in Frameworks */,
 				402B420883E243E1A35C9345 /* libPods.a in Frameworks */,
@@ -120,6 +123,7 @@
 		ADA0BA071891D7A400F13199 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADFB90A11892F53D00AA6C82 /* Crashlytics.framework */,
 				ADA0BA081891D7A400F13199 /* Foundation.framework */,
 				ADA0BA0A1891D7A400F13199 /* CoreGraphics.framework */,
 				ADA0BA0C1891D7A400F13199 /* UIKit.framework */,
@@ -211,7 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				ADFB908D1891E3DC00AA6C82 /* Fonts */,
-				ADA0BA201891D7A400F13199 /* Images.xcassets */,
+				ADA0BA201891D7A400F13199 /* DarkImages.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -238,6 +242,7 @@
 				ADA0BA021891D7A400F13199 /* Frameworks */,
 				ADA0BA031891D7A400F13199 /* Resources */,
 				E394B2B799DE4E6CB27D046A /* Copy Pods Resources */,
+				ADFB90A01892F46600AA6C82 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -310,7 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADFB90911891E45300AA6C82 /* Sochi2014 Bold.ttf in Resources */,
-				ADA0BA211891D7A400F13199 /* Images.xcassets in Resources */,
+				ADA0BA211891D7A400F13199 /* DarkImages.xcassets in Resources */,
 				ADFB90931891E45300AA6C82 /* Sochi2014 Regular.ttf in Resources */,
 				ADFB909B1891E81400AA6C82 /* Localizable.strings in Resources */,
 				ADA0BA451891DC4300F13199 /* VBMainViewController.xib in Resources */,
@@ -344,6 +349,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		ADFB90A01892F46600AA6C82 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 43bdaee89a9a66824f56a6da19395009058a1b34";
 		};
 		E394B2B799DE4E6CB27D046A /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -502,10 +520,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/bergusman/Desktop/Coding/Sochi\\ 2014\\ Countdown",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Prefix.pch";
 				INFOPLIST_FILE = "Sochi 2014 Countdown/DarkInfo.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -517,10 +541,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/bergusman/Desktop/Coding/Sochi\\ 2014\\ Countdown",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Prefix.pch";
 				INFOPLIST_FILE = "Sochi 2014 Countdown/DarkInfo.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
