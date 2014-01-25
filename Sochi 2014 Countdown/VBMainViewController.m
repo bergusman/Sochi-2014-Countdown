@@ -51,7 +51,7 @@
 #pragma mark - Content
 
 - (void)startDisciplineTimer {
-    self.disciplineTimer = [NSTimer scheduledTimerWithTimeInterval:10
+    self.disciplineTimer = [NSTimer scheduledTimerWithTimeInterval:4
                                                             target:self
                                                           selector:@selector(disciplineOnTime:)
                                                           userInfo:nil
@@ -69,9 +69,17 @@
     
     toShowImageView.image = image;
     
-    [UIView animateWithDuration:0.5 animations:^{
+    CGPoint c = toShowImageView.center;
+    
+    toShowImageView.alpha = 0.2;
+    toShowImageView.center = CGPointMake(480, c.y);
+    
+    [UIView animateWithDuration:0.6 delay:0 usingSpringWithDamping:0.65 initialSpringVelocity:2 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        toShowImageView.center = CGPointMake(160, c.y);
+        toHideImageView.center = CGPointMake(-160, c.y);
+    } completion:^(BOOL finished) {
+        
         toHideImageView.alpha = 0;
-        toShowImageView.alpha = 0.3;
     }];
 }
 
@@ -122,15 +130,13 @@
     return NO;
 }
 
-/*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (VB_IS_IPHONE_5) {
-        self = [super initWithNibName:@"VBMainViewController" bundle:nil];
+        self = [super initWithNibName:@"VBMainViewController-568h" bundle:nil];
     } else {
         self = [super initWithNibName:@"VBMainViewController" bundle:nil];
     }
     return self;
 }
- */
 
 @end

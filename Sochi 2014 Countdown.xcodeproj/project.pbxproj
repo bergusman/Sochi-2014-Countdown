@@ -15,13 +15,10 @@
 		ADA0BA151891D7A400F13199 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA0BA141891D7A400F13199 /* main.m */; };
 		ADA0BA191891D7A400F13199 /* VBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA0BA181891D7A400F13199 /* VBAppDelegate.m */; };
 		ADA0BA211891D7A400F13199 /* DarkImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA201891D7A400F13199 /* DarkImages.xcassets */; };
-		ADA0BA281891D7A400F13199 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA0BA271891D7A400F13199 /* XCTest.framework */; };
-		ADA0BA291891D7A400F13199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA0BA081891D7A400F13199 /* Foundation.framework */; };
-		ADA0BA2A1891D7A400F13199 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA0BA0C1891D7A400F13199 /* UIKit.framework */; };
-		ADA0BA321891D7A400F13199 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA301891D7A400F13199 /* InfoPlist.strings */; };
-		ADA0BA341891D7A400F13199 /* Sochi_2014_CountdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA0BA331891D7A400F13199 /* Sochi_2014_CountdownTests.m */; };
 		ADA0BA441891DC4300F13199 /* VBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA0BA421891DC4300F13199 /* VBMainViewController.m */; };
-		ADA0BA451891DC4300F13199 /* VBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA431891DC4300F13199 /* VBMainViewController.xib */; };
+		ADA0BA451891DC4300F13199 /* VBMainViewController-568h.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA431891DC4300F13199 /* VBMainViewController-568h.xib */; };
+		ADC7EED818944DEF00F7C370 /* VBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EED718944DEF00F7C370 /* VBMainViewController.xib */; };
+		ADC7EED918944DEF00F7C370 /* VBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EED718944DEF00F7C370 /* VBMainViewController.xib */; };
 		ADFB90911891E45300AA6C82 /* Sochi2014 Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB908E1891E45300AA6C82 /* Sochi2014 Bold.ttf */; };
 		ADFB90921891E45300AA6C82 /* Sochi2014 Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB908F1891E45300AA6C82 /* Sochi2014 Light.ttf */; };
 		ADFB90931891E45300AA6C82 /* Sochi2014 Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB90901891E45300AA6C82 /* Sochi2014 Regular.ttf */; };
@@ -40,21 +37,11 @@
 		ADFB90B11894424000AA6C82 /* Sochi2014 Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB908E1891E45300AA6C82 /* Sochi2014 Bold.ttf */; };
 		ADFB90B31894424000AA6C82 /* Sochi2014 Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB90901891E45300AA6C82 /* Sochi2014 Regular.ttf */; };
 		ADFB90B41894424000AA6C82 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADFB909D1891E81400AA6C82 /* Localizable.strings */; };
-		ADFB90B51894424000AA6C82 /* VBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA431891DC4300F13199 /* VBMainViewController.xib */; };
+		ADFB90B51894424000AA6C82 /* VBMainViewController-568h.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA431891DC4300F13199 /* VBMainViewController-568h.xib */; };
 		ADFB90B61894424000AA6C82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA111891D7A400F13199 /* InfoPlist.strings */; };
 		ADFB90B71894424000AA6C82 /* Sochi2014 Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB908F1891E45300AA6C82 /* Sochi2014 Light.ttf */; };
 		ADFB90C01894429D00AA6C82 /* LightImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADFB90BF1894429D00AA6C82 /* LightImages.xcassets */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		ADA0BA2B1891D7A400F13199 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ADA0B9FD1891D7A400F13199 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ADA0BA041891D7A400F13199;
-			remoteInfo = "Sochi 2014 Countdown";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1A4AF518DDD746B892748D23 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -70,26 +57,22 @@
 		ADA0BA171891D7A400F13199 /* VBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBAppDelegate.h; sourceTree = "<group>"; };
 		ADA0BA181891D7A400F13199 /* VBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAppDelegate.m; sourceTree = "<group>"; };
 		ADA0BA201891D7A400F13199 /* DarkImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DarkImages.xcassets; sourceTree = "<group>"; };
-		ADA0BA261891D7A400F13199 /* Sochi 2014 CountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sochi 2014 CountdownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA0BA271891D7A400F13199 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		ADA0BA2F1891D7A400F13199 /* Sochi 2014 CountdownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sochi 2014 CountdownTests-Info.plist"; sourceTree = "<group>"; };
-		ADA0BA311891D7A400F13199 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ADA0BA331891D7A400F13199 /* Sochi_2014_CountdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sochi_2014_CountdownTests.m; sourceTree = "<group>"; };
 		ADA0BA411891DC4300F13199 /* VBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBMainViewController.h; sourceTree = "<group>"; };
 		ADA0BA421891DC4300F13199 /* VBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBMainViewController.m; sourceTree = "<group>"; };
-		ADA0BA431891DC4300F13199 /* VBMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VBMainViewController.xib; sourceTree = "<group>"; };
+		ADA0BA431891DC4300F13199 /* VBMainViewController-568h.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "VBMainViewController-568h.xib"; sourceTree = "<group>"; };
+		ADC7EED518944A8700F7C370 /* LightInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LightInfo.plist; sourceTree = "<group>"; };
+		ADC7EED718944DEF00F7C370 /* VBMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VBMainViewController.xib; sourceTree = "<group>"; };
 		ADFB908E1891E45300AA6C82 /* Sochi2014 Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sochi2014 Bold.ttf"; sourceTree = "<group>"; };
 		ADFB908F1891E45300AA6C82 /* Sochi2014 Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sochi2014 Light.ttf"; sourceTree = "<group>"; };
 		ADFB90901891E45300AA6C82 /* Sochi2014 Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sochi2014 Regular.ttf"; sourceTree = "<group>"; };
 		ADFB90941891E46F00AA6C82 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ADFB90951891E46F00AA6C82 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADFB90961891E75700AA6C82 /* VBSochiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBSochiLabel.h; sourceTree = "<group>"; };
 		ADFB90971891E75700AA6C82 /* VBSochiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBSochiLabel.m; sourceTree = "<group>"; };
 		ADFB909C1891E81400AA6C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ADFB909E1891E81500AA6C82 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ADFB90A11892F53D00AA6C82 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		ADFB90BD1894424000AA6C82 /* Sochi 2014 Countdown Dark copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sochi 2014 Countdown Dark copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADFB90BE1894424000AA6C82 /* Sochi 2014 Countdown Dark copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Sochi 2014 Countdown Dark copy-Info.plist"; path = "/Users/bergusman/Desktop/Coding/Sochi 2014 Countdown/Sochi 2014 Countdown Dark copy-Info.plist"; sourceTree = "<absolute>"; };
 		ADFB90BF1894429D00AA6C82 /* LightImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LightImages.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,16 +86,6 @@
 				ADA0BA0D1891D7A400F13199 /* UIKit.framework in Frameworks */,
 				ADA0BA091891D7A400F13199 /* Foundation.framework in Frameworks */,
 				402B420883E243E1A35C9345 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADA0BA231891D7A400F13199 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADA0BA281891D7A400F13199 /* XCTest.framework in Frameworks */,
-				ADA0BA2A1891D7A400F13199 /* UIKit.framework in Frameworks */,
-				ADA0BA291891D7A400F13199 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,11 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				ADA0BA0E1891D7A400F13199 /* Sochi 2014 Countdown */,
-				ADA0BA2D1891D7A400F13199 /* Sochi 2014 CountdownTests */,
 				ADA0BA071891D7A400F13199 /* Frameworks */,
 				ADA0BA061891D7A400F13199 /* Products */,
 				1A4AF518DDD746B892748D23 /* Pods.xcconfig */,
-				ADFB90BE1894424000AA6C82 /* Sochi 2014 Countdown Dark copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				ADA0BA051891D7A400F13199 /* Sochi 2014 Countdown Dark.app */,
-				ADA0BA261891D7A400F13199 /* Sochi 2014 CountdownTests.xctest */,
 				ADFB90BD1894424000AA6C82 /* Sochi 2014 Countdown Dark copy.app */,
 			);
 			name = Products;
@@ -180,28 +150,11 @@
 			isa = PBXGroup;
 			children = (
 				ADA0BA101891D7A400F13199 /* DarkInfo.plist */,
+				ADC7EED518944A8700F7C370 /* LightInfo.plist */,
 				ADA0BA111891D7A400F13199 /* InfoPlist.strings */,
 				ADA0BA141891D7A400F13199 /* main.m */,
 				ADA0BA161891D7A400F13199 /* Prefix.pch */,
 				ADFB909D1891E81400AA6C82 /* Localizable.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		ADA0BA2D1891D7A400F13199 /* Sochi 2014 CountdownTests */ = {
-			isa = PBXGroup;
-			children = (
-				ADA0BA331891D7A400F13199 /* Sochi_2014_CountdownTests.m */,
-				ADA0BA2E1891D7A400F13199 /* Supporting Files */,
-			);
-			path = "Sochi 2014 CountdownTests";
-			sourceTree = "<group>";
-		};
-		ADA0BA2E1891D7A400F13199 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				ADA0BA2F1891D7A400F13199 /* Sochi 2014 CountdownTests-Info.plist */,
-				ADA0BA301891D7A400F13199 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,7 +183,8 @@
 			children = (
 				ADA0BA411891DC4300F13199 /* VBMainViewController.h */,
 				ADA0BA421891DC4300F13199 /* VBMainViewController.m */,
-				ADA0BA431891DC4300F13199 /* VBMainViewController.xib */,
+				ADA0BA431891DC4300F13199 /* VBMainViewController-568h.xib */,
+				ADC7EED718944DEF00F7C370 /* VBMainViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -248,8 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				ADFB908D1891E3DC00AA6C82 /* Fonts */,
-				ADA0BA201891D7A400F13199 /* DarkImages.xcassets */,
 				ADFB90BF1894429D00AA6C82 /* LightImages.xcassets */,
+				ADA0BA201891D7A400F13199 /* DarkImages.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -287,24 +241,6 @@
 			productReference = ADA0BA051891D7A400F13199 /* Sochi 2014 Countdown Dark.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ADA0BA251891D7A400F13199 /* Sochi 2014 CountdownTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADA0BA3A1891D7A500F13199 /* Build configuration list for PBXNativeTarget "Sochi 2014 CountdownTests" */;
-			buildPhases = (
-				ADA0BA221891D7A400F13199 /* Sources */,
-				ADA0BA231891D7A400F13199 /* Frameworks */,
-				ADA0BA241891D7A400F13199 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ADA0BA2C1891D7A400F13199 /* PBXTargetDependency */,
-			);
-			name = "Sochi 2014 CountdownTests";
-			productName = "Sochi 2014 CountdownTests";
-			productReference = ADA0BA261891D7A400F13199 /* Sochi 2014 CountdownTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		ADFB90A31894424000AA6C82 /* Sochi 2014 Countdown Light */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADFB90BA1894424000AA6C82 /* Build configuration list for PBXNativeTarget "Sochi 2014 Countdown Light" */;
@@ -338,9 +274,6 @@
 					ADA0BA041891D7A400F13199 = {
 						DevelopmentTeam = 5G5YZAQBSX;
 					};
-					ADA0BA251891D7A400F13199 = {
-						TestTargetID = ADA0BA041891D7A400F13199;
-					};
 					ADFB90A31894424000AA6C82 = {
 						DevelopmentTeam = 5G5YZAQBSX;
 					};
@@ -362,7 +295,6 @@
 			targets = (
 				ADA0BA041891D7A400F13199 /* Sochi 2014 Countdown Dark */,
 				ADFB90A31894424000AA6C82 /* Sochi 2014 Countdown Light */,
-				ADA0BA251891D7A400F13199 /* Sochi 2014 CountdownTests */,
 			);
 		};
 /* End PBXProject section */
@@ -376,17 +308,10 @@
 				ADA0BA211891D7A400F13199 /* DarkImages.xcassets in Resources */,
 				ADFB90931891E45300AA6C82 /* Sochi2014 Regular.ttf in Resources */,
 				ADFB909B1891E81400AA6C82 /* Localizable.strings in Resources */,
-				ADA0BA451891DC4300F13199 /* VBMainViewController.xib in Resources */,
+				ADA0BA451891DC4300F13199 /* VBMainViewController-568h.xib in Resources */,
+				ADC7EED818944DEF00F7C370 /* VBMainViewController.xib in Resources */,
 				ADA0BA131891D7A400F13199 /* InfoPlist.strings in Resources */,
 				ADFB90921891E45300AA6C82 /* Sochi2014 Light.ttf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADA0BA241891D7A400F13199 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADA0BA321891D7A400F13199 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +323,8 @@
 				ADFB90B31894424000AA6C82 /* Sochi2014 Regular.ttf in Resources */,
 				ADFB90B41894424000AA6C82 /* Localizable.strings in Resources */,
 				ADFB90C01894429D00AA6C82 /* LightImages.xcassets in Resources */,
-				ADFB90B51894424000AA6C82 /* VBMainViewController.xib in Resources */,
+				ADFB90B51894424000AA6C82 /* VBMainViewController-568h.xib in Resources */,
+				ADC7EED918944DEF00F7C370 /* VBMainViewController.xib in Resources */,
 				ADFB90B61894424000AA6C82 /* InfoPlist.strings in Resources */,
 				ADFB90B71894424000AA6C82 /* Sochi2014 Light.ttf in Resources */,
 			);
@@ -507,14 +433,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADA0BA221891D7A400F13199 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADA0BA341891D7A400F13199 /* Sochi_2014_CountdownTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ADFB90A51894424000AA6C82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -528,29 +446,12 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		ADA0BA2C1891D7A400F13199 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ADA0BA041891D7A400F13199 /* Sochi 2014 Countdown Dark */;
-			targetProxy = ADA0BA2B1891D7A400F13199 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		ADA0BA111891D7A400F13199 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ADA0BA121891D7A400F13199 /* en */,
 				ADFB90941891E46F00AA6C82 /* ru */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		ADA0BA301891D7A400F13199 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADA0BA311891D7A400F13199 /* en */,
-				ADFB90951891E46F00AA6C82 /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -649,7 +550,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/bergusman/Desktop/Coding/Sochi\\ 2014\\ Countdown",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Prefix.pch";
@@ -670,7 +571,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/bergusman/Desktop/Coding/Sochi\\ 2014\\ Countdown",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Prefix.pch";
@@ -678,48 +579,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		ADA0BA3B1891D7A500F13199 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sochi 2014 Countdown.app/Sochi 2014 Countdown";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Sochi 2014 Countdown-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Sochi 2014 CountdownTests/Sochi 2014 CountdownTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		ADA0BA3C1891D7A500F13199 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sochi 2014 Countdown.app/Sochi 2014 Countdown";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Sochi 2014 Countdown-Prefix.pch";
-				INFOPLIST_FILE = "Sochi 2014 CountdownTests/Sochi 2014 CountdownTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -733,12 +592,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/bergusman/Desktop/Coding/Sochi\\ 2014\\ Countdown",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Prefix.pch";
-				INFOPLIST_FILE = "Sochi 2014 Countdown Dark copy-Info.plist";
-				PRODUCT_NAME = "Sochi 2014 Countdown Dark copy";
+				INFOPLIST_FILE = "Sochi 2014 Countdown/LightInfo.plist";
+				PRODUCT_NAME = "Sochi 2014 Countdown Light";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -754,12 +613,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/bergusman/Desktop/Coding/Sochi\\ 2014\\ Countdown",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sochi 2014 Countdown/Prefix.pch";
-				INFOPLIST_FILE = "Sochi 2014 Countdown Dark copy-Info.plist";
-				PRODUCT_NAME = "Sochi 2014 Countdown Dark copy";
+				INFOPLIST_FILE = "Sochi 2014 Countdown/LightInfo.plist";
+				PRODUCT_NAME = "Sochi 2014 Countdown Light";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -782,15 +641,6 @@
 			buildConfigurations = (
 				ADA0BA381891D7A500F13199 /* Debug */,
 				ADA0BA391891D7A500F13199 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ADA0BA3A1891D7A500F13199 /* Build configuration list for PBXNativeTarget "Sochi 2014 CountdownTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADA0BA3B1891D7A500F13199 /* Debug */,
-				ADA0BA3C1891D7A500F13199 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

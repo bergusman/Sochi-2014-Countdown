@@ -22,11 +22,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="1">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" id="IRd-Uc-W5i" userLabel="Logo Image View">
-                    <rect key="frame" x="65" y="50" width="200" height="80"/>
+                    <rect key="frame" x="65" y="40" width="200" height="80"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <view contentMode="scaleToFill" id="ICe-sA-H3A">
@@ -35,15 +35,15 @@
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
                 <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Discipline1" id="6QE-5i-4Mk" userLabel="First Discipline Image View">
-                    <rect key="frame" x="0.0" y="155" width="320" height="220"/>
+                    <rect key="frame" x="40" y="146" width="240" height="154"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Discipline1" id="rJA-1q-zPb" userLabel="Second Disciplin Image View">
-                    <rect key="frame" x="0.0" y="155" width="320" height="220"/>
+                    <rect key="frame" x="40" y="146" width="240" height="154"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aDr-b2-x8N" userLabel="Title Label" customClass="VBSochiLabel">
-                    <rect key="frame" x="10" y="388" width="300" height="60"/>
+                    <rect key="frame" x="10" y="316" width="300" height="60"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <string key="text">До XXII Олимпийских зимних
 Игр осталось:</string>
@@ -52,7 +52,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" id="3aL-rW-aCV" userLabel="Countdown View">
-                    <rect key="frame" x="0.0" y="458" width="320" height="82"/>
+                    <rect key="frame" x="0.0" y="386" width="320" height="82"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" id="Ggt-BZ-vtF">
@@ -161,7 +161,7 @@
             </subviews>
             <color key="backgroundColor" red="0.058823529411764705" green="0.23921568627450979" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
     <resources>
