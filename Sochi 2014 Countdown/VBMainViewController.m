@@ -40,6 +40,14 @@
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]];
 }
 
+- (void)setupTitleColors {
+    self.titleLabel.textColor = VB_RGB(20, 97, 171);
+    self.daysTitleLabel.textColor = VB_RGB(20, 97, 171);
+    self.hoursTitleLabel.textColor = VB_RGB(20, 97, 171);
+    self.minutesTitleLabel.textColor = VB_RGB(20, 97, 171);
+    self.secondsTitleLabel.textColor = VB_RGB(20, 97, 171);
+}
+
 - (void)setupLocalizableStrings {
     self.titleLabel.text = NSLocalizedString(@"title", @"");
     self.daysTitleLabel.text = NSLocalizedString(@"days", @"");
@@ -110,6 +118,7 @@
     [super viewDidLoad];
     
     [self setupBackground];
+    [self setupTitleColors];
     [self setupLocalizableStrings];
     
     self.firstDisciplineImageView.alpha = 0;
@@ -123,7 +132,8 @@
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleLightContent;
+    return UIStatusBarStyleDefault;
+    //return UIStatusBarStyleLightContent;
 }
 
 - (BOOL)prefersStatusBarHidden {

@@ -19,9 +19,12 @@
 		ADA0BA451891DC4300F13199 /* VBMainViewController-568h.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA431891DC4300F13199 /* VBMainViewController-568h.xib */; };
 		ADC7EED818944DEF00F7C370 /* VBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EED718944DEF00F7C370 /* VBMainViewController.xib */; };
 		ADC7EED918944DEF00F7C370 /* VBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EED718944DEF00F7C370 /* VBMainViewController.xib */; };
-		ADFB90911891E45300AA6C82 /* Sochi2014 Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB908E1891E45300AA6C82 /* Sochi2014 Bold.ttf */; };
-		ADFB90921891E45300AA6C82 /* Sochi2014 Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB908F1891E45300AA6C82 /* Sochi2014 Light.ttf */; };
-		ADFB90931891E45300AA6C82 /* Sochi2014 Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB90901891E45300AA6C82 /* Sochi2014 Regular.ttf */; };
+		ADC7EEDE1895334F00F7C370 /* Sochi2014 Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EEDB1895334F00F7C370 /* Sochi2014 Bold.ttf */; };
+		ADC7EEDF1895334F00F7C370 /* Sochi2014 Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EEDB1895334F00F7C370 /* Sochi2014 Bold.ttf */; };
+		ADC7EEE01895334F00F7C370 /* Sochi2014 Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EEDC1895334F00F7C370 /* Sochi2014 Light.ttf */; };
+		ADC7EEE11895334F00F7C370 /* Sochi2014 Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EEDC1895334F00F7C370 /* Sochi2014 Light.ttf */; };
+		ADC7EEE21895334F00F7C370 /* Sochi2014 Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EEDD1895334F00F7C370 /* Sochi2014 Regular.ttf */; };
+		ADC7EEE31895334F00F7C370 /* Sochi2014 Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EEDD1895334F00F7C370 /* Sochi2014 Regular.ttf */; };
 		ADFB90981891E75700AA6C82 /* VBSochiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFB90971891E75700AA6C82 /* VBSochiLabel.m */; };
 		ADFB909B1891E81400AA6C82 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADFB909D1891E81400AA6C82 /* Localizable.strings */; };
 		ADFB90A21892F53D00AA6C82 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFB90A11892F53D00AA6C82 /* Crashlytics.framework */; };
@@ -34,12 +37,9 @@
 		ADFB90AD1894424000AA6C82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA0BA0C1891D7A400F13199 /* UIKit.framework */; };
 		ADFB90AE1894424000AA6C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA0BA081891D7A400F13199 /* Foundation.framework */; };
 		ADFB90AF1894424000AA6C82 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF552D210F940AF9D486964 /* libPods.a */; };
-		ADFB90B11894424000AA6C82 /* Sochi2014 Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB908E1891E45300AA6C82 /* Sochi2014 Bold.ttf */; };
-		ADFB90B31894424000AA6C82 /* Sochi2014 Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB90901891E45300AA6C82 /* Sochi2014 Regular.ttf */; };
 		ADFB90B41894424000AA6C82 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADFB909D1891E81400AA6C82 /* Localizable.strings */; };
 		ADFB90B51894424000AA6C82 /* VBMainViewController-568h.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA431891DC4300F13199 /* VBMainViewController-568h.xib */; };
 		ADFB90B61894424000AA6C82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA0BA111891D7A400F13199 /* InfoPlist.strings */; };
-		ADFB90B71894424000AA6C82 /* Sochi2014 Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFB908F1891E45300AA6C82 /* Sochi2014 Light.ttf */; };
 		ADFB90C01894429D00AA6C82 /* LightImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADFB90BF1894429D00AA6C82 /* LightImages.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -63,16 +63,16 @@
 		ADA0BA431891DC4300F13199 /* VBMainViewController-568h.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "VBMainViewController-568h.xib"; sourceTree = "<group>"; };
 		ADC7EED518944A8700F7C370 /* LightInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LightInfo.plist; sourceTree = "<group>"; };
 		ADC7EED718944DEF00F7C370 /* VBMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VBMainViewController.xib; sourceTree = "<group>"; };
-		ADFB908E1891E45300AA6C82 /* Sochi2014 Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sochi2014 Bold.ttf"; sourceTree = "<group>"; };
-		ADFB908F1891E45300AA6C82 /* Sochi2014 Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sochi2014 Light.ttf"; sourceTree = "<group>"; };
-		ADFB90901891E45300AA6C82 /* Sochi2014 Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sochi2014 Regular.ttf"; sourceTree = "<group>"; };
+		ADC7EEDB1895334F00F7C370 /* Sochi2014 Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sochi2014 Bold.ttf"; path = "Rosources/Fonts/Sochi2014 Bold.ttf"; sourceTree = "<group>"; };
+		ADC7EEDC1895334F00F7C370 /* Sochi2014 Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sochi2014 Light.ttf"; path = "Rosources/Fonts/Sochi2014 Light.ttf"; sourceTree = "<group>"; };
+		ADC7EEDD1895334F00F7C370 /* Sochi2014 Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sochi2014 Regular.ttf"; path = "Rosources/Fonts/Sochi2014 Regular.ttf"; sourceTree = "<group>"; };
 		ADFB90941891E46F00AA6C82 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADFB90961891E75700AA6C82 /* VBSochiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBSochiLabel.h; sourceTree = "<group>"; };
 		ADFB90971891E75700AA6C82 /* VBSochiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBSochiLabel.m; sourceTree = "<group>"; };
 		ADFB909C1891E81400AA6C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ADFB909E1891E81500AA6C82 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ADFB90A11892F53D00AA6C82 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		ADFB90BD1894424000AA6C82 /* Sochi 2014 Countdown Dark copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sochi 2014 Countdown Dark copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFB90BD1894424000AA6C82 /* Sochi 2014 Countdown Dark copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Sochi 2014 Countdown Dark copy.app"; path = "Sochi 2014 Countdown Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFB90BF1894429D00AA6C82 /* LightImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LightImages.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,9 +198,17 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		ADC7EEDA1894698400F7C370 /* Dark */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Dark;
+			sourceTree = "<group>";
+		};
 		ADFB908C1891E3CD00AA6C82 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ADC7EEDA1894698400F7C370 /* Dark */,
 				ADFB908D1891E3DC00AA6C82 /* Fonts */,
 				ADFB90BF1894429D00AA6C82 /* LightImages.xcassets */,
 				ADA0BA201891D7A400F13199 /* DarkImages.xcassets */,
@@ -211,9 +219,9 @@
 		ADFB908D1891E3DC00AA6C82 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				ADFB908E1891E45300AA6C82 /* Sochi2014 Bold.ttf */,
-				ADFB908F1891E45300AA6C82 /* Sochi2014 Light.ttf */,
-				ADFB90901891E45300AA6C82 /* Sochi2014 Regular.ttf */,
+				ADC7EEDB1895334F00F7C370 /* Sochi2014 Bold.ttf */,
+				ADC7EEDC1895334F00F7C370 /* Sochi2014 Light.ttf */,
+				ADC7EEDD1895334F00F7C370 /* Sochi2014 Regular.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -304,14 +312,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADFB90911891E45300AA6C82 /* Sochi2014 Bold.ttf in Resources */,
+				ADC7EEE21895334F00F7C370 /* Sochi2014 Regular.ttf in Resources */,
 				ADA0BA211891D7A400F13199 /* DarkImages.xcassets in Resources */,
-				ADFB90931891E45300AA6C82 /* Sochi2014 Regular.ttf in Resources */,
 				ADFB909B1891E81400AA6C82 /* Localizable.strings in Resources */,
+				ADC7EEDE1895334F00F7C370 /* Sochi2014 Bold.ttf in Resources */,
 				ADA0BA451891DC4300F13199 /* VBMainViewController-568h.xib in Resources */,
+				ADC7EEE01895334F00F7C370 /* Sochi2014 Light.ttf in Resources */,
 				ADC7EED818944DEF00F7C370 /* VBMainViewController.xib in Resources */,
 				ADA0BA131891D7A400F13199 /* InfoPlist.strings in Resources */,
-				ADFB90921891E45300AA6C82 /* Sochi2014 Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,14 +327,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADFB90B11894424000AA6C82 /* Sochi2014 Bold.ttf in Resources */,
-				ADFB90B31894424000AA6C82 /* Sochi2014 Regular.ttf in Resources */,
+				ADC7EEE31895334F00F7C370 /* Sochi2014 Regular.ttf in Resources */,
 				ADFB90B41894424000AA6C82 /* Localizable.strings in Resources */,
 				ADFB90C01894429D00AA6C82 /* LightImages.xcassets in Resources */,
+				ADC7EEDF1895334F00F7C370 /* Sochi2014 Bold.ttf in Resources */,
 				ADFB90B51894424000AA6C82 /* VBMainViewController-568h.xib in Resources */,
+				ADC7EEE11895334F00F7C370 /* Sochi2014 Light.ttf in Resources */,
 				ADC7EED918944DEF00F7C370 /* VBMainViewController.xib in Resources */,
 				ADFB90B61894424000AA6C82 /* InfoPlist.strings in Resources */,
-				ADFB90B71894424000AA6C82 /* Sochi2014 Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
