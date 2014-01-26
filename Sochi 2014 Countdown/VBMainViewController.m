@@ -15,6 +15,8 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
+@property (weak, nonatomic) IBOutlet UIView *countdownPanel;
+
 @property (weak, nonatomic) IBOutlet UILabel *daysTitleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *hoursTitleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *minutesTitleLabel;
@@ -30,6 +32,8 @@
 
 @property (strong, nonatomic) NSTimer *countdownTimer;
 
+@property (assign, nonatomic) BOOL lightTheme;
+
 @end
 
 @implementation VBMainViewController
@@ -37,15 +41,17 @@
 #pragma mark - Setups
 
 - (void)setupBackground {
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background-pattern"]];
 }
 
-- (void)setupTitleColors {
-    self.titleLabel.textColor = VB_RGB(20, 97, 171);
-    self.daysTitleLabel.textColor = VB_RGB(20, 97, 171);
-    self.hoursTitleLabel.textColor = VB_RGB(20, 97, 171);
-    self.minutesTitleLabel.textColor = VB_RGB(20, 97, 171);
-    self.secondsTitleLabel.textColor = VB_RGB(20, 97, 171);
+- (void)setupTheme {
+    if (self.lightTheme) {
+        self.titleLabel.textColor = VB_RGB(20, 97, 171);
+        self.daysTitleLabel.textColor = VB_RGB(20, 97, 171);
+        self.hoursTitleLabel.textColor = VB_RGB(20, 97, 171);
+        self.minutesTitleLabel.textColor = VB_RGB(20, 97, 171);
+        self.secondsTitleLabel.textColor = VB_RGB(20, 97, 171);
+    }
 }
 
 - (void)setupLocalizableStrings {
@@ -68,7 +74,7 @@
 
 - (void)disciplineOnTime:(id)sender {
     self.disciplineIndex = (self.disciplineIndex + 1) % 15 + 1;
-    NSString *imageName = [NSString stringWithFormat:@"Discipline%ld", (long)self.disciplineIndex];
+    NSString *imageName = [NSString stringWithFormat:@"discipline-%ld", (long)self.disciplineIndex];
     UIImage *image = [UIImage imageNamed:imageName];
     
     UIImageView *toHideImageView = self.firstDisciplineImageView.alpha > 0.1 ? self.firstDisciplineImageView : self.secondDisciplineImageView;
@@ -117,8 +123,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self setupTheme];
     [self setupBackground];
-    [self setupTitleColors];
     [self setupLocalizableStrings];
     
     self.firstDisciplineImageView.alpha = 0;
@@ -132,8 +138,7 @@
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleDefault;
-    //return UIStatusBarStyleLightContent;
+    return self.lightTheme ? UIStatusBarStyleDefault : UIStatusBarStyleLightContent;
 }
 
 - (BOOL)prefersStatusBarHidden {
@@ -145,6 +150,9 @@
         self = [super initWithNibName:@"VBMainViewController-568h" bundle:nil];
     } else {
         self = [super initWithNibName:@"VBMainViewController" bundle:nil];
+    }
+    if (self) {
+        self.lightTheme = [[[NSBundle mainBundle] infoDictionary][(__bridge NSString *)kCFBundleIdentifierKey] hasSuffix:@"light"];
     }
     return self;
 }

@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VBMainViewController">
             <connections>
+                <outlet property="countdownPanel" destination="3aL-rW-aCV" id="CZ3-aw-ycq"/>
                 <outlet property="daysLabel" destination="8Cj-3R-obN" id="A1e-mt-Vvv"/>
                 <outlet property="daysTitleLabel" destination="MIq-nF-djg" id="2aM-BL-ef8"/>
                 <outlet property="firstDisciplineImageView" destination="6QE-5i-4Mk" id="axK-jv-ZZo"/>
@@ -25,7 +26,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" id="IRd-Uc-W5i" userLabel="Logo Image View">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" id="IRd-Uc-W5i" userLabel="Logo Image View">
                     <rect key="frame" x="65" y="50" width="200" height="80"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -34,11 +35,11 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
-                <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Discipline1" id="6QE-5i-4Mk" userLabel="First Discipline Image View">
+                <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="discipline-1.png" id="6QE-5i-4Mk" userLabel="First Discipline Image View">
                     <rect key="frame" x="0.0" y="155" width="320" height="220"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Discipline1" id="rJA-1q-zPb" userLabel="Second Disciplin Image View">
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="discipline-1.png" id="rJA-1q-zPb" userLabel="Second Disciplin Image View">
                     <rect key="frame" x="0.0" y="155" width="320" height="220"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -59,7 +60,7 @@
                             <rect key="frame" x="12" y="0.0" width="83" height="82"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Counter" id="udY-TD-fRE" userLabel="Background Image View">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter-background.png" id="udY-TD-fRE" userLabel="Background Image View">
                                     <rect key="frame" x="0.0" y="0.0" width="83" height="61"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
@@ -84,7 +85,7 @@
                             <rect key="frame" x="83" y="0.0" width="83" height="82"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Counter" id="g15-6d-26D" userLabel="Background Image View">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter-background.png" id="g15-6d-26D" userLabel="Background Image View">
                                     <rect key="frame" x="0.0" y="0.0" width="83" height="61"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
@@ -109,7 +110,7 @@
                             <rect key="frame" x="154" y="0.0" width="83" height="82"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Counter" id="apB-sL-QqR" userLabel="Background Image View">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter-background.png" id="apB-sL-QqR" userLabel="Background Image View">
                                     <rect key="frame" x="0.0" y="0.0" width="83" height="61"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
@@ -134,7 +135,7 @@
                             <rect key="frame" x="225" y="0.0" width="83" height="82"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Counter" id="FnJ-sf-ZJg" userLabel="Background Image View">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter-background.png" id="FnJ-sf-ZJg" userLabel="Background Image View">
                                     <rect key="frame" x="0.0" y="0.0" width="83" height="61"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
@@ -165,8 +166,8 @@
         </view>
     </objects>
     <resources>
-        <image name="Counter" width="83" height="61"/>
-        <image name="Discipline1" width="320" height="220"/>
-        <image name="Logo" width="200" height="80"/>
+        <image name="counter-background.png" width="83" height="61"/>
+        <image name="discipline-1.png" width="320" height="220"/>
+        <image name="logo.png" width="200" height="80"/>
     </resources>
 </document>
