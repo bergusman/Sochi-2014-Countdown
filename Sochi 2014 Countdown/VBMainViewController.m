@@ -27,6 +27,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *minutesLabel;
 @property (weak, nonatomic) IBOutlet UILabel *secondsLabel;
 
+@property (weak, nonatomic) IBOutlet UIView *bingoView;
+@property (weak, nonatomic) IBOutlet UIImageView *bingoBackgroundImageView;
+@property (weak, nonatomic) IBOutlet UILabel *bingoLabel;
+
 @property (strong, nonatomic) NSTimer *disciplineTimer;
 @property (assign, nonatomic) NSInteger disciplineIndex;
 
@@ -60,12 +64,20 @@
     self.hoursTitleLabel.text = NSLocalizedString(@"hours", @"");
     self.minutesTitleLabel.text = NSLocalizedString(@"minutes", @"");
     self.secondsTitleLabel.text = NSLocalizedString(@"seconds", @"");
+    
+    self.bingoLabel.text = NSLocalizedString(@"bingo", @"");
+}
+
+- (void)setupBingo {
+    UIImage *bg = [UIImage imageNamed:@"counter-background"];
+    bg = [bg resizableImageWithCapInsets:UIEdgeInsetsMake(0, 30, 0, 30) resizingMode:UIImageResizingModeStretch];
+    self.bingoBackgroundImageView.image = bg;
 }
 
 #pragma mark - Content
 
 - (void)startDisciplineTimer {
-    self.disciplineTimer = [NSTimer scheduledTimerWithTimeInterval:4
+    self.disciplineTimer = [NSTimer scheduledTimerWithTimeInterval:6
                                                             target:self
                                                           selector:@selector(disciplineOnTime:)
                                                           userInfo:nil
@@ -108,14 +120,30 @@
 - (void)countdownOnTime:(id)sender {
     NSDate *from = [NSDate date];
     NSDate *to = [NSDate dateWithTimeIntervalSince1970:1391789640];
+    //NSDate *to = [NSDate dateWithTimeIntervalSince1970:1390850728];
     
     NSCalendarUnit units = NSDayCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit;
     NSDateComponents *components = [[NSCalendar autoupdatingCurrentCalendar] components:units fromDate:from toDate:to options:0];
     
-    self.daysLabel.text = [NSString stringWithFormat:@"%02ld", (long)components.day];
-    self.hoursLabel.text = [NSString stringWithFormat:@"%02ld", (long)components.hour];
-    self.minutesLabel.text = [NSString stringWithFormat:@"%02ld", (long)components.minute];
-    self.secondsLabel.text = [NSString stringWithFormat:@"%02ld", (long)components.second];
+    if (components.day <= 0 &&
+        components.hour <= 0 &&
+        components.minute <= 0 &&
+        components.second <= 0)
+    {
+        self.countdownPanel.hidden = YES;
+        self.bingoView.hidden = NO;
+        
+    } else {
+        self.countdownPanel.hidden = NO;
+        self.bingoView.hidden = YES;
+        
+        self.daysLabel.text = [NSString stringWithFormat:@"%02ld", (long)components.day];
+        self.hoursLabel.text = [NSString stringWithFormat:@"%02ld", (long)components.hour];
+        self.minutesLabel.text = [NSString stringWithFormat:@"%02ld", (long)components.minute];
+        self.secondsLabel.text = [NSString stringWithFormat:@"%02ld", (long)components.second];
+    }
+    
+    
 }
 
 #pragma mark - UIViewController
@@ -125,6 +153,7 @@
     
     [self setupTheme];
     [self setupBackground];
+    [self setupBingo];
     [self setupLocalizableStrings];
     
     self.firstDisciplineImageView.alpha = 0;
