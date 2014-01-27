@@ -76,8 +76,6 @@
 		ADC7EF50189534E500F7C370 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF3E189534E500F7C370 /* Icon-Small@2x.png */; };
 		ADC7EF51189534E500F7C370 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF3F189534E500F7C370 /* icon.png */; };
 		ADC7EF52189534E500F7C370 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF40189534E500F7C370 /* icon@2x.png */; };
-		ADC7EF53189534E500F7C370 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF41189534E500F7C370 /* iTunesArtwork.png */; };
-		ADC7EF54189534E500F7C370 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF42189534E500F7C370 /* iTunesArtwork@2x.png */; };
 		ADC7EF69189535CB00F7C370 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF57189535CB00F7C370 /* Icon-29.png */; };
 		ADC7EF6A189535CB00F7C370 /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF58189535CB00F7C370 /* Icon-29@2x.png */; };
 		ADC7EF6B189535CB00F7C370 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF59189535CB00F7C370 /* Icon-40.png */; };
@@ -94,8 +92,6 @@
 		ADC7EF76189535CB00F7C370 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF64189535CB00F7C370 /* Icon-Small@2x.png */; };
 		ADC7EF77189535CB00F7C370 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF65189535CB00F7C370 /* icon.png */; };
 		ADC7EF78189535CB00F7C370 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF66189535CB00F7C370 /* icon@2x.png */; };
-		ADC7EF79189535CB00F7C370 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF67189535CB00F7C370 /* iTunesArtwork.png */; };
-		ADC7EF7A189535CB00F7C370 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF68189535CB00F7C370 /* iTunesArtwork@2x.png */; };
 		ADC7EF99189535F500F7C370 /* discipline-1.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF7B189535F500F7C370 /* discipline-1.png */; };
 		ADC7EF9A189535F500F7C370 /* discipline-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF7C189535F500F7C370 /* discipline-1@2x.png */; };
 		ADC7EF9B189535F500F7C370 /* discipline-2.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC7EF7D189535F500F7C370 /* discipline-2.png */; };
@@ -728,12 +724,10 @@
 				ADC7EFA8189535F500F7C370 /* discipline-8@2x.png in Resources */,
 				ADC7EFB4189535F500F7C370 /* discipline-14@2x.png in Resources */,
 				ADC7EF6E189535CB00F7C370 /* Icon-60@2x.png in Resources */,
-				ADC7EF79189535CB00F7C370 /* iTunesArtwork.png in Resources */,
 				ADC7EF77189535CB00F7C370 /* icon.png in Resources */,
 				ADC7EF76189535CB00F7C370 /* Icon-Small@2x.png in Resources */,
 				ADC7EF6D189535CB00F7C370 /* Icon-60.png in Resources */,
 				ADC7EF78189535CB00F7C370 /* icon@2x.png in Resources */,
-				ADC7EF7A189535CB00F7C370 /* iTunesArtwork@2x.png in Resources */,
 				ADC7EFB1189535F500F7C370 /* discipline-13.png in Resources */,
 				ADC7EFA6189535F500F7C370 /* discipline-7@2x.png in Resources */,
 				ADC7EFA1189535F500F7C370 /* discipline-5.png in Resources */,
@@ -792,7 +786,6 @@
 				ADC7EF261895346100F7C370 /* discipline-12@2x.png in Resources */,
 				ADC7EF4C189534E500F7C370 /* Icon-76@2x.png in Resources */,
 				ADC7EF201895346100F7C370 /* discipline-9@2x.png in Resources */,
-				ADC7EF54189534E500F7C370 /* iTunesArtwork@2x.png in Resources */,
 				ADC7EF121895346100F7C370 /* discipline-2@2x.png in Resources */,
 				ADC7EFCA189537AD00F7C370 /* Default-568h@2x.png in Resources */,
 				ADC7EF141895346100F7C370 /* discipline-3@2x.png in Resources */,
@@ -800,7 +793,6 @@
 				ADC7EF49189534E500F7C370 /* Icon-72.png in Resources */,
 				ADC7EEDF1895334F00F7C370 /* Sochi2014 Bold.ttf in Resources */,
 				ADC7EF2C1895346100F7C370 /* discipline-15@2x.png in Resources */,
-				ADC7EF53189534E500F7C370 /* iTunesArtwork.png in Resources */,
 				ADC7EF191895346100F7C370 /* discipline-6.png in Resources */,
 				ADC7EF1B1895346100F7C370 /* discipline-7.png in Resources */,
 				ADC7EF50189534E500F7C370 /* Icon-Small@2x.png in Resources */,
