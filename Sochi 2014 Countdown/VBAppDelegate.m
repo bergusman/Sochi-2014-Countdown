@@ -22,7 +22,7 @@
 }
 
 - (void)setupFlurry {
-    [Flurry startSession:@""];
+    [Flurry startSession:@"BNBY4K5BB5437968MK9F"];
 }
 
 - (void)setupWindow {
