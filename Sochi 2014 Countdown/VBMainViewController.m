@@ -107,7 +107,7 @@
 
 - (void)countdownOnTime:(id)sender {
     NSDate *from = [NSDate date];
-    NSDate *to = [NSDate dateWithTimeIntervalSince1970:1391799600];
+    NSDate *to = [NSDate dateWithTimeIntervalSince1970:1391789640];
     
     NSCalendarUnit units = NSDayCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit;
     NSDateComponents *components = [[NSCalendar autoupdatingCurrentCalendar] components:units fromDate:from toDate:to options:0];
