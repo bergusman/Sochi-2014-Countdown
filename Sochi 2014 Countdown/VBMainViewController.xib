@@ -6,6 +6,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VBMainViewController">
             <connections>
+                <outlet property="bingoBackgroundImageView" destination="ebY-Oq-dQs" id="sYt-04-h3U"/>
+                <outlet property="bingoLabel" destination="gLJ-ua-jvN" id="WEX-4A-bhw"/>
+                <outlet property="bingoView" destination="Tow-VM-Nwi" id="oG8-EA-3k8"/>
                 <outlet property="countdownPanel" destination="3aL-rW-aCV" id="XaI-rD-xL9"/>
                 <outlet property="daysLabel" destination="8Cj-3R-obN" id="A1e-mt-Vvv"/>
                 <outlet property="daysTitleLabel" destination="MIq-nF-djg" id="2aM-BL-ef8"/>
@@ -36,11 +39,11 @@
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
                 <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="discipline-1.png" id="6QE-5i-4Mk" userLabel="First Discipline Image View">
-                    <rect key="frame" x="40" y="146" width="240" height="154"/>
+                    <rect key="frame" x="40" y="142" width="240" height="162"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="discipline-1.png" id="rJA-1q-zPb" userLabel="Second Disciplin Image View">
-                    <rect key="frame" x="40" y="146" width="240" height="154"/>
+                    <rect key="frame" x="40" y="142" width="240" height="162"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aDr-b2-x8N" userLabel="Title Label" customClass="VBSochiLabel">
@@ -156,6 +159,24 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" id="Tow-VM-Nwi" userLabel="Bingo View">
+                    <rect key="frame" x="0.0" y="386" width="320" height="82"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter-background.png" id="ebY-Oq-dQs" userLabel="Background Image View">
+                            <rect key="frame" x="12" y="0.0" width="296" height="61"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="gLJ-ua-jvN" userLabel="Bingo Label" customClass="VBSochiLabel">
+                            <rect key="frame" x="40" y="-4" width="240" height="61"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="33"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>

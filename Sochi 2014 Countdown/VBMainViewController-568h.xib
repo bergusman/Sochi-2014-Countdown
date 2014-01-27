@@ -6,6 +6,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VBMainViewController">
             <connections>
+                <outlet property="bingoBackgroundImageView" destination="bf1-kR-Nca" id="PzH-d4-kvg"/>
+                <outlet property="bingoLabel" destination="kbt-v6-eom" id="1b4-rG-off"/>
+                <outlet property="bingoView" destination="9WJ-fw-NML" id="ymF-Xy-jbE"/>
                 <outlet property="countdownPanel" destination="3aL-rW-aCV" id="CZ3-aw-ycq"/>
                 <outlet property="daysLabel" destination="8Cj-3R-obN" id="A1e-mt-Vvv"/>
                 <outlet property="daysTitleLabel" destination="MIq-nF-djg" id="2aM-BL-ef8"/>
@@ -156,6 +159,24 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" id="9WJ-fw-NML" userLabel="Bingo View">
+                    <rect key="frame" x="0.0" y="458" width="320" height="82"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter-background.png" id="bf1-kR-Nca" userLabel="Background Image View">
+                            <rect key="frame" x="12" y="0.0" width="296" height="61"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="kbt-v6-eom" userLabel="Bingo Label" customClass="VBSochiLabel">
+                            <rect key="frame" x="40" y="-4" width="240" height="61"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="33"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
